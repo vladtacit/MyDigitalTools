@@ -49,4 +49,6 @@ dit file /etc/zabbix/nginx.conf uncomment and set 'listen' and 'server_name' dir
 # systemctl enable zabbix-server zabbix-agent nginx php8.2-fpm
 ```
 
+Default user name Admin with password zabbix.
+
 &#9635;
