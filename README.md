@@ -10,6 +10,8 @@ Snowflake
 
 ## Server software
 
+### Zabbix
+
 ### Grafana
 
 ## Work tools
