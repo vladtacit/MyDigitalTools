@@ -1,23 +1,54 @@
 # Zabbix
 
-[Руководство по Zabbix](https://www.zabbix.com/documentation/6.4/ru/manual)
+## Install and configure Zabbix 6.0 for Debian 12
 
-## Templates
+[Get Zabbix](https://www.zabbix.com/download?zabbix=6.0&os_distribution=debian&os_version=12&components=server_frontend_agent&db=pgsql&ws=nginx)
 
-[Alex Gluck. ZBX_NGINX](https://github.com/AlexGluck/ZBX_NGINX)
+1. Install Zabbix repository
 
-## Read it
+```bash
+# wget https://repo.zabbix.com/zabbix/6.0/debian/pool/main/z/zabbix-release/zabbix-release_latest_6.0+debian12_all.deb
+# dpkg -i zabbix-release_latest_6.0+debian12_all.deb
+# apt update
+...
+Hit:9 https://repo.zabbix.com/zabbix/6.0/debian bookworm InRelease
+```
 
-[Сергей Прутских. Публикации](https://habr.com/ru/users/sperr0w/bookmarks/articles/) **!!!**
+2. Install Zabbix server, frontend, agent
 
-[Настройка мониторинга SMART жесткого диска в zabbix](https://serveradmin.ru/monitoring-smart-v-zabbix/) **Templates**
+```bash
+# apt install zabbix-server-pgsql zabbix-frontend-php php8.2-pgsql zabbix-nginx-conf zabbix-sql-scripts zabbix-agent
+```
 
-[Zabbix на стероидах: как устроена единая платформа мониторинга Сбертеха](https://habr.com/ru/companies/sberbank/articles/420731/)
+3. Create and configure database
 
-[Тюнинг производительности Zabbix — наш опыт](https://habr.com/ru/articles/825994/)
+```bash
+# sudo -u postgres createuser --pwprompt zabbix
+# sudo -u postgres createdb -O zabbix zabbix
+```
 
-[Grafana+Zabbix: Визуализация работы производственной линии](https://habr.com/ru/articles/516772/)
+Edit file /etc/zabbix/zabbix_server.conf
 
- [Мониторинг скорости интернет каналов в Zabbix](https://habr.com/ru/articles/590775/) **iperf3** **python**
+```
+DBPassword=password
+```
 
- [Iperf](https://ru.wikipedia.org/wiki/Iperf)
+4. Configure PHP for Zabbix frontend
+
+dit file /etc/zabbix/nginx.conf uncomment and set 'listen' and 'server_name' directives.
+
+```
+# listen 8080;
+# server_name example.com;
+```
+
+5. Start Zabbix server and agent processes
+
+```bash
+# systemctl restart zabbix-server zabbix-agent nginx php8.2-fpm
+# systemctl enable zabbix-server zabbix-agent nginx php8.2-fpm
+```
+
+Default user name Admin with password zabbix.
+
+&#9635;

@@ -103,4 +103,4 @@ ToDo:
 
 [libtidy-5.6.0-5.el8.x86_64.rpm](https://rhel.pkgs.org/8/epel-x86_64/libtidy-5.6.0-5.el8.x86_64.rpm.html)
 
-----
+&#9635;
