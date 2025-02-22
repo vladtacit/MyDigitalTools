@@ -2,4 +2,7 @@
 
 [Простые лайфхаки для автоматизации работы с помощью Python](https://habr.com/ru/companies/netologyru/articles/881796/)
 
+[Закадровый перевод видео](https://github.com/ilyhalight/voice-over-translation)
+>Небольшое расширение, которое добавляет закадровый перевод видео из YaBrowser в другие браузеры
+
 &#9635;
