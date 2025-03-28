@@ -61,4 +61,14 @@ source ~/python-bot-venv/bin/activate
 
 [Плагины для VS Code, которые стоит использовать в 2024 году](https://habr.com/ru/companies/ru_mts/articles/825234/)
 
+[VSCode, SourceCraft Code Assistant и микроконтроллеры](https://habr.com/ru/companies/yandex/articles/892502/)
+
+---
+
+[SourceCraft Code Assistant](https://yandex.cloud/ru/docs/code-assistant/)
+
+[Как мы учили Yandex Code Assistant помогать разработчикам с написанием кода и делать их счастливыми](https://habr.com/ru/companies/yandex/articles/841436/)
+
+[VSCode, SourceCraft Code Assistant и микроконтроллеры](https://habr.com/ru/companies/yandex/articles/892502/)
+
 &#9635;
