@@ -26,6 +26,17 @@
 
 [Original: Why LSP?](https://matklad.github.io/2022/04/25/why-lsp.html)
 
+
+## VS Code Extensions
+
+[Your First Extension](https://code.visualstudio.com/api/get-started/your-first-extension)
+
+[Extension API](https://code.visualstudio.com/api)
+
+[Пишем простые расширения VS Code для автоматизации задач командной строки](https://habr.com/ru/companies/ncloudtech/articles/822475/)
+
+[Всё, что необходимо (и достаточно) знать о создании пользовательских интерфейсов в расширениях VS Code](https://habr.com/ru/companies/ncloudtech/articles/881890/)
+
 ## VS Code. Python virtual environment
 
 [Python environments in VS Code](https://code.visualstudio.com/docs/python/environments) **Read it!**
@@ -70,5 +81,17 @@ source ~/python-bot-venv/bin/activate
 [Как мы учили Yandex Code Assistant помогать разработчикам с написанием кода и делать их счастливыми](https://habr.com/ru/companies/yandex/articles/841436/)
 
 [VSCode, SourceCraft Code Assistant и микроконтроллеры](https://habr.com/ru/companies/yandex/articles/892502/)
+
+---
+
+[Data Wrangler Extension for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.datawrangler)
+
+[Data Wrangler Extension for Visual Studio Code](https://github.com/microsoft/vscode-data-wrangler)
+
+[Getting Started with Data Wrangler in VS Code](https://code.visualstudio.com/docs/datascience/data-wrangler)
+
+[Data Science in VS Code tutorial](https://code.visualstudio.com/docs/datascience/data-science-tutorial)
+
+[Как я использую плагины VSCode для обработки Json-файлов в работе системным аналитиком](https://habr.com/ru/companies/ru_mts/articles/829134/)
 
 &#9635;
