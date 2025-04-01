@@ -94,4 +94,6 @@ source ~/python-bot-venv/bin/activate
 
 [Как я использую плагины VSCode для обработки Json-файлов в работе системным аналитиком](https://habr.com/ru/companies/ru_mts/articles/829134/)
 
+[Remote Development using SSH](https://code.visualstudio.com/docs/remote/ssh)
+
 &#9635;
