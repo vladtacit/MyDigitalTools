@@ -1,0 +1,77 @@
+# Git
+
+[Линус Торвальдс, Бьёрн Страуструп и Брендан Грегг контрибьютят в мой хобби-проект. Зачем?](https://habr.com/ru/post/515550/)
+
+[Генеалогическое древо внутри Git](https://habr.com/ru/post/351158/)
+
+[23 команды Git, которые должен знать каждый разработчик](https://www.cloud4y.ru/blog/23-git-command/)
+
+[30 команд Git, необходимых для освоения интерфейса командной строки Git](https://habr.com/ru/companies/ruvds/articles/599929/)
+
+[Ежедневная работа с Git](https://habr.com/ru/articles/174467/)
+
+[Git за полчаса: руководство для начинающих](https://proglib.io/p/git-for-half-an-hour)
+
+[Git для новичков (часть 1)](https://habr.com/ru/articles/541258/)  
+[Git для новичков (часть 2)](https://habr.com/ru/articles/542616/)
+
+[Описание внутреннего git протокола](https://habr.com/ru/articles/823642/)
+
+---
+
+## GitHub Actions
+
+[Документация по GitHub Actions](https://docs.github.com/ru/actions)
+
+[Github Actions. Простой пример для уверенного знакомства](https://habr.com/ru/articles/711278/)
+
+[Run your GitHub Actions locally!](https://github.com/nektos/act)
+
+---
+
+[Как работать с Git и Gitflow: разбираемся на примерах](https://habr.com/ru/companies/beeline_cloud/articles/829142/)
+
+## GitVerse
+
+On [GitVerse](https://gitverse.ru/new) create a new repository @{USER}/@{REPO}
+
+@{USER} - user name
+@{REPO} - repository name
+
+### New repository (SSH)
+
+On the localhost create a directory for the repository and go to it.
+
+```bash
+touch README.md
+git init
+git add .
+git commit -m "first_commit"
+git branch -M master
+git remote add origin ssh://git@gitverse.ru:2222/${USER}/${REPO}.git
+git push -u origin master
+```
+
+### Existing repository (SSH)
+
+On the localhost go to the repository directory
+
+```bash
+git remote add origin ssh://git@gitverse.ru:2222/${USER}/${REPO}.git
+git branch -M master
+git push -u origin master
+```
+
+---
+
+[10 полезных команд Git](https://habr.com/ru/companies/otus/articles/795525/)
+
+## GitHub CLI
+
+[GitHub CLI](https://cli.github.com/)
+
+[GitHub’s official command line tool](https://github.com/cli/cli)
+
+[Как улучшить свои навыки работы с Git с помощью GitHub CLI](https://habr.com/ru/companies/otus/articles/867782/)
+
+&#9635;
