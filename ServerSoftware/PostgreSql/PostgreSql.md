@@ -54,4 +54,8 @@ User access:
 $ sudo -u postgres psql
 ```
 
+## Admin tools
+
+[pgAdmin](https://www.pgadmin.org/)
+
 &#9635;
