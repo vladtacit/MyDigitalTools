@@ -1,5 +1,21 @@
 # Git
 
+## Create repository
+
+[ConvenientHome](https://github.com/vladtacit/ConvenientHome)
+
+See shell scripts in _Store!
+
+## Work with multiple remotes
+
+[Git and multiple remotes](https://blog.tinned-software.net/git-and-multiple-remotes/)
+
+[Pushing to Multiple Git Repos](https://gist.github.com/rvl/c3f156e117e22a25f242)
+
+[Git - Pushing code to two remotes](https://stackoverflow.com/questions/14290113/git-pushing-code-to-two-remotes) **!!!**
+
+## Read it!
+
 [Линус Торвальдс, Бьёрн Страуструп и Брендан Грегг контрибьютят в мой хобби-проект. Зачем?](https://habr.com/ru/post/515550/)
 
 [Генеалогическое древо внутри Git](https://habr.com/ru/post/351158/)
