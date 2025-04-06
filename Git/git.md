@@ -8,6 +8,18 @@ See shell scripts in _Store!
 
 [How to configure command line git to use ssh key](https://stackoverflow.com/questions/23546865/how-to-configure-command-line-git-to-use-ssh-key)
 
+Показать подписи всех коммитов в логе, начиная с последнего коммита:
+
+```bash
+git log --show-signature
+```
+
+Подпись конкретного коммита:
+
+```bash
+git cat-file -p <commit_hash>
+```
+
 ## Work with multiple remotes
 
 [Git and multiple remotes](https://blog.tinned-software.net/git-and-multiple-remotes/)
