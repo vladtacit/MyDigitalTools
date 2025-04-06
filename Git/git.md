@@ -6,6 +6,8 @@
 
 See shell scripts in _Store!
 
+[How to configure command line git to use ssh key](https://stackoverflow.com/questions/23546865/how-to-configure-command-line-git-to-use-ssh-key)
+
 ## Work with multiple remotes
 
 [Git and multiple remotes](https://blog.tinned-software.net/git-and-multiple-remotes/)
