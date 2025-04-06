@@ -64,6 +64,10 @@ source ~/python-bot-venv/bin/activate
 
 ----
 
+[Настройка подключения через SSH в VSCode](https://timeweb.cloud/docs/unix-guides/configuring-ssh-connection-in-vscode)
+
+[Remote SSH: Tips and Tricks](https://code.visualstudio.com/blogs/2019/10/03/remote-ssh-tips-and-tricks)
+
 ## Read it
 
 [Полезные расширения VScode для работы с документацией](https://habr.com/ru/companies/agima/articles/798523/)
