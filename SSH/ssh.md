@@ -4,11 +4,19 @@
 
 [Generating a new SSH key and adding it to the ssh-agent](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
 
+Generating a new SSH key:
 
 ```bash
-ssh-keygen -t ed25519 -C "your_email@example.com"
+ssh-keygen -t ed25519 -C "your_email@example.com" -f /path/to/key-file -N passphrase
 ```
 
+Check the key-file with passphrase:
+
+```bash
+ssh-keygen -y -f /path/to/key-file_with_passphrase
+echo $?
+```
+The exit status ($?) will be 1 to indicate an error.
 
 ## Local TCP forwarding
 
