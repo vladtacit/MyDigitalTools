@@ -4,6 +4,19 @@
 
 [Всё, что необходимо (и достаточно) знать о создании пользовательских интерфейсов в расширениях VS Code](https://habr.com/ru/companies/ncloudtech/articles/881890/)
 
+[Agent mode: available to all users and supports MCP](https://code.visualstudio.com/blogs/2025/04/07/agentMode)
+
+[Самое заметное обновление VS Code в 2025 году. Агенты теперь доступны всем, бесплатно и с поддержкой MCP](https://habr.com/ru/companies/bar/news/898538/) **Agent mode**
+
+Как подключить прокси в VS Code?
+
+```
+{
+    "http.proxy": "http://user:pass@my.proxy.address:8080",
+    "http.proxyStrictSSL": false,
+}
+```
+
 ## Workspaces
 
 [What is a VS Code "workspace"?](https://code.visualstudio.com/docs/editor/workspaces)
