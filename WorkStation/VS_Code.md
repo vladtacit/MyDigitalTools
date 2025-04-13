@@ -83,6 +83,8 @@ source ~/python-bot-venv/bin/activate
 
 ## Read it
 
+[Developing inside a Container](https://code.visualstudio.com/docs/devcontainers/containers)
+
 [Полезные расширения VScode для работы с документацией](https://habr.com/ru/companies/agima/articles/798523/)
 
 [Работа с Git в Visual Studio Code](https://htmlacademy.ru/blog/git/git-in-vscode)
