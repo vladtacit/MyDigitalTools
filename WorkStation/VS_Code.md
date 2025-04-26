@@ -115,4 +115,24 @@ source ~/python-bot-venv/bin/activate
 
 [Remote Development using SSH](https://code.visualstudio.com/docs/remote/ssh)
 
+## Forks
+
+[Build and Run Code-OSS](https://github.com/Microsoft/vscode/wiki/How-to-Contribute#build-and-run) - How make fork the VS Code repository
+
+[VSCodium](https://vscodium.com/) from [Codeium](https://habr.com/ru/companies/otus/articles/894448/)
+
+[VSCodium GitHub](https://github.com/VSCodium/vscodium) - binary releases of VS Code without MS branding/telemetry/licensing
+
+[Cursor](https://www.cursor.com/) - The AI Code Editor from [Anysphere](https://anysphere.inc/)
+
+[Обзор AI-ассистента Cursor для разработчиков](https://habr.com/ru/companies/otus/articles/844866/)
+
+[Cursor vs Windsurf vs GitHub Copilot](https://habr.com/ru/companies/otus/articles/894448/)
+
+Virtual assistants:
+
+* GitHub - Copilot
+* Codeium - Windsurf
+* Anysphere - Cursor
+
 &#9635;
