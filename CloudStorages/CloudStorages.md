@@ -12,6 +12,10 @@
 
 [Immich](https://immich.app/)
 
+[TIL: Immich is pronounced as “image”](https://www.reddit.com/r/immich/comments/1dwdgyo/til_immich_is_pronounced_as_image/)
+
+[r/immich](https://www.reddit.com/r/immich/)
+
 [Как за пару минут установить на свой сервер Immich — полноценную замену Google и Apple iCloud](https://habr.com/ru/companies/pqhosting/articles/882610/)
 
 [Pipeline для личных фото и видео](https://habr.com/ru/articles/841700/)
