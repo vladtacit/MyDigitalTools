@@ -1,5 +1,20 @@
 # CloudStorages
 
+## Nextcloud
+
+[Nextcloud](https://ru.wikipedia.org/wiki/Nextcloud)
+
+[Nextcloud Hub](https://nextcloud.com/)
+
+[Релиз открытой платформы для организации совместной работы Nextcloud Hub 10](https://habr.com/ru/news/886244/)
+
+## Immich
+
+[Immich](https://immich.app/)
+
+[Как за пару минут установить на свой сервер Immich — полноценную замену Google и Apple iCloud](https://habr.com/ru/companies/pqhosting/articles/882610/)
+
+[Pipeline для личных фото и видео](https://habr.com/ru/articles/841700/)
 
 ## Syncthing
 
