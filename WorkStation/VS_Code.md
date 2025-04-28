@@ -115,6 +115,14 @@ source ~/python-bot-venv/bin/activate
 
 [Remote Development using SSH](https://code.visualstudio.com/docs/remote/ssh)
 
+## Markdown preview
+
+[Github markdown rendering](https://github.com/mjbvz/vscode-github-markdown-preview)
+
+ToDo: See [Features](https://github.com/mjbvz/vscode-github-markdown-preview#features)
+
+[Markdown preview](https://code.visualstudio.com/Docs/languages/markdown#_markdown-preview)
+
 ## Forks
 
 [Build and Run Code-OSS](https://github.com/Microsoft/vscode/wiki/How-to-Contribute#build-and-run) - How make fork the VS Code repository
