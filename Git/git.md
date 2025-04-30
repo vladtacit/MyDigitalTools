@@ -1,5 +1,7 @@
 # Git
 
+[15 команд Git, которые покрывают 90% повседневной работы разработчика](https://habr.com/ru/articles/905658/)
+
 ## Create repository
 
 [ConvenientHome](https://github.com/vladtacit/ConvenientHome)
