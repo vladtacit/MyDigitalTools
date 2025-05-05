@@ -51,4 +51,10 @@ dit file /etc/zabbix/nginx.conf uncomment and set 'listen' and 'server_name' dir
 
 Default user name Admin with password zabbix.
 
+## fping
+
+[fping](https://ru.wikipedia.org/wiki/Fping)
+
+[Zabbix: Simple checks](https://www.zabbix.com/documentation/current/en/manual/config/items/itemtypes/simple_checks)
+
 &#9635;
