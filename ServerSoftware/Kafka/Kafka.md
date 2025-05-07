@@ -47,6 +47,33 @@ Stop the Kafka broker with Ctrl-C
 
 [Running Kafka Without ZooKeeper: A Step-by-Step Guide](https://risingwave.com/blog/running-kafka-without-zookeeper-a-step-by-step-guide/)
 
+## Kafka service at home
+
+Specify the directory where the log files will be stored (config/server.properties):
+
+```
+# A comma separated list of directories under which to store log files
+log.dirs=/home/vlad/Work/System/kafka-kraft-combined-logs
+```
+
+```bash
+mkdir /home/vlad/Work/System/kafka-kraft-combined-logs
+cd /home/vlad/Work/System/kafka
+KAFKA_CLUSTER_ID="$(bin/kafka-storage.sh random-uuid)"
+bin/kafka-storage.sh format --standalone -t $KAFKA_CLUSTER_ID -c config/server.properties
+mkdir -p ~/.config/systemd/user
+```
+
+Create Kafka service unit in ~/.config/systemd/user
+
+[Kafka service unit](./kafka.service)
+
+```bash
+systemctl --user start kafka
+systemctl --user status kafka
+systemctl --user stop kafka
+```
+
 ## Python
 
 [Событийный заказ: Python и Kafka](https://habr.com/ru/companies/otus/articles/883996/)

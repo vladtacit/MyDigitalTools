@@ -1,5 +1,7 @@
 # Git
 
+[Pro Git](../_Store/progit-ru.1027.pdf)
+
 [15 команд Git, которые покрывают 90% повседневной работы разработчика](https://habr.com/ru/articles/905658/)
 
 ## Create repository

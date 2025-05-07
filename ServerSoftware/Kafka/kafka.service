@@ -1,0 +1,7 @@
+[Unit]
+Description=Apache Kafka (at home)
+
+[Service]
+Type=simple
+ExecStart=/home/vlad/Work/System/kafka/bin/kafka-server-start.sh /home/vlad/Work/System/kafka/config/server.properties
+ExecStop=/home/vlad/Work/System/kafka/bin/kafka-server-stop.sh
