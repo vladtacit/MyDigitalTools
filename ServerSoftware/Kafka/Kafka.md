@@ -6,6 +6,8 @@ Note: ZooKeeper is marked deprecated in release 3.5. ZooKeeper is removed in Apa
 
 [Почему KRaft заменил ZooKeeper](https://habr.com/ru/companies/slurm/articles/685694/)
 
+[Apache Kafka: основы технологии](https://habr.com/ru/companies/slurm/articles/550934/)
+
 ## Apache Kafka Quickstart
 
 [Apache Kafka Quickstart](https://kafka.apache.org/quickstart)
@@ -47,7 +49,7 @@ Stop the Kafka broker with Ctrl-C
 
 [Running Kafka Without ZooKeeper: A Step-by-Step Guide](https://risingwave.com/blog/running-kafka-without-zookeeper-a-step-by-step-guide/)
 
-## Kafka service at home
+### Kafka service at home
 
 Specify the directory where the log files will be stored (config/server.properties):
 
@@ -72,6 +74,47 @@ Create Kafka service unit in ~/.config/systemd/user
 systemctl --user start kafka
 systemctl --user status kafka
 systemctl --user stop kafka
+```
+
+Add the alias into .bash_aliases
+
+```
+alias userctl='systemctl --user'
+```
+
+### Topics
+
+1. Create a topic to store some events
+```bash
+$ cd /home/vlad/Work/System/kafka
+$ bin/kafka-topics.sh --create --topic mix-events --bootstrap-server localhost:9092
+Created topic mix-events.
+```
+
+2. Get topic's info
+```bash
+$ bin/kafka-topics.sh --describe --topic mix-events --bootstrap-server localhost:9092
+Topic: mix-events	TopicId: FbHCms58QTWdhiilvYk0xA	PartitionCount: 1	ReplicationFactor: 1	Configs: segment.bytes=1073741824
+	Topic: mix-events	Partition: 0	Leader: 1	Replicas: 1	Isr: 1	Elr: 	LastKnownElr:
+```
+ 
+3. Write some events into the topic
+```bash
+$ bin/kafka-console-producer.sh --topic mix-events --bootstrap-server localhost:9092
+>1. Event one;
+>2. Event two;
+>3. Finish.
+>^C
+```
+
+4. Read the events
+```bash
+bin/kafka-console-consumer.sh --topic mix-events --from-beginning --bootstrap-server localhost:9092
+1. Event one;
+2. Event two;
+3. Finish.
+^C
+Processed a total of 3 messages
 ```
 
 ## Python
