@@ -123,4 +123,20 @@ Processed a total of 3 messages
 
 [KafkaProducer](https://kafka-python.readthedocs.io/en/master/apidoc/KafkaProducer.html)
 
+[KafkaConsumer](https://kafka-python.readthedocs.io/en/master/apidoc/KafkaConsumer.html)
+
+### confluent-kafka
+
+```bash
+sudo apt install python3-confluent-kafka
+```
+
+[Что выбрать Python-разработчику для работы с Kafka: confluent-kafka vs kafka-python](https://bigdataschool.ru/blog/news/kafka/confluent-kafka-vs-kafka-python.html)
+
+[Использование Kafka с Python: Consumer и Producer](https://sky.pro/wiki/python/ispolzovanie-kafka-s-python-consumer-i-producer/)
+
+[Продюсеры и консьюмеры с Apache Kafka в Python](https://habr.com/ru/companies/otus/articles/789896/)
+
+[Поднимаем потоковый сервис Kafka на Python](https://habr.com/ru/articles/880700/)
+
 &#9635;
