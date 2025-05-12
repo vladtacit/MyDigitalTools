@@ -139,4 +139,14 @@ sudo apt install python3-confluent-kafka
 
 [Поднимаем потоковый сервис Kafka на Python](https://habr.com/ru/articles/880700/)
 
+## Golang
+
+[Go Client for Apache Kafka](https://docs.confluent.io/kafka-clients/go/current/overview.html)
+
+[confluent-kafka-go. GitHub](https://github.com/confluentinc/confluent-kafka-go) - Confluent's Apache Kafka Golang client
+
+[Подключение Go к Apache Kafka](https://selectel.ru/blog/tutorials/go-apache-kafka/)
+
+[Простейший пример kafka + golang](https://habr.com/ru/articles/764582/)
+
 &#9635;
