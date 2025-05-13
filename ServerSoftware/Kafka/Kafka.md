@@ -131,6 +131,25 @@ Processed a total of 3 messages
 sudo apt install python3-confluent-kafka
 ```
 
+[Confluent's Python Client for Apache Kafka. PyPI](https://docs.confluent.io/kafka-clients/python/current/overview.html)
+
+[Installing Packages](https://packaging.python.org/en/latest/tutorials/installing-packages/)
+
+[Загрузка файлов](https://pypi.org/project/confluent-kafka/#files)
+
+```bash
+$ python3 -m venv tutorial_env
+$ source tutorial_env/bin/activate
+$ pip install confluent_kafka-2.10.0-cp311-cp311-manylinux_2_28_x86_64.whl
+Installing collected packages: confluent-kafka
+Successfully installed confluent-kafka-2.10.0
+$ pip list
+Package         Version
+--------------- -----------
+confluent-kafka 2.10.0
+```
+
+---
 [Что выбрать Python-разработчику для работы с Kafka: confluent-kafka vs kafka-python](https://bigdataschool.ru/blog/news/kafka/confluent-kafka-vs-kafka-python.html)
 
 [Использование Kafka с Python: Consumer и Producer](https://sky.pro/wiki/python/ispolzovanie-kafka-s-python-consumer-i-producer/)
