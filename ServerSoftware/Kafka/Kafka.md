@@ -10,6 +10,8 @@ Note: ZooKeeper is marked deprecated in release 3.5. ZooKeeper is removed in Apa
 
 [Управление отставанием lag в Kafka Consumers: как не просто замерить, а стабилизировать](https://habr.com/ru/companies/otus/articles/905804/)
 
+[DLQ-first: учим Kafka-консьюмера падать красиво и поднимать поток за секунды](https://habr.com/ru/companies/otus/articles/905810/)
+
 ## Apache Kafka Quickstart
 
 [Apache Kafka Quickstart](https://kafka.apache.org/quickstart)
