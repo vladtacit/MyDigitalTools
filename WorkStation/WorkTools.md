@@ -7,4 +7,7 @@
 
 [19 команд ffmpeg для любых нужд](https://habr.com/ru/articles/171213/)
 
+[Microsoft Edit](https://github.com/microsoft/edit)
+>A simple editor for simple needs.
+
 &#9635;
