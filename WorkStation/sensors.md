@@ -116,4 +116,9 @@ beep_enable:           disabled
 
 [Source: How to install sensors (lm-sensors) on Ubuntu / Debian Linux](https://www.cyberciti.biz/faq/install-sensors-lm-sensors-on-ubuntu-debian-linux/)
 
+---
+[Контроль за температурой сервера](https://ab-log.ru/smart-house/linux/server_temp_control)
+
+[Hddtemp](https://wiki.archlinux.org/title/Hddtemp_(%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9))
+
 &#9635;

@@ -19,6 +19,8 @@ echo $?
 
 The exit status ($?) will be 1 to indicate an error.
 
+[Про SSH Agent](https://habr.com/ru/companies/skillfactory/articles/503466/)
+
 ## SSH config file
 
 [SSH config file for OpenSSH client](https://www.ssh.com/academy/ssh/config) **VPN!**
@@ -67,5 +69,9 @@ PostgreSQL:
 [Configuring a SOCKS proxy server in Chrome](https://www.chromium.org/developers/design-documents/network-stack/socks-proxy/)
 
 [SSH-туннели: настройка и примеры использования](https://firstvds.ru/technology/ssh-tunnels)
+
+[Как SSH появился на 22 порту](https://habr.com/ru/articles/418533/)
+
+[Маленькие хитрости SSH](https://habr.com/ru/companies/itsumma/articles/499920/)
 
 &#9635;
