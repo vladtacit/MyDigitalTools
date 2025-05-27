@@ -172,4 +172,10 @@ confluent-kafka 2.10.0
 
 [Простейший пример kafka + golang](https://habr.com/ru/articles/764582/)
 
+## Message Format
+
+[APACHE KAFKA: Message Format](https://www.getorchestra.io/guides/apache-kafka-message-format)
+
+[JSON vs бинарные форматы: почему Kafka выбирает скорость?](https://habr.com/ru/companies/otus/articles/911012/)
+
 &#9635;
