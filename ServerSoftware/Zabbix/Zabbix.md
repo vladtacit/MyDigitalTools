@@ -57,4 +57,23 @@ Default user name Admin with password zabbix.
 
 [Zabbix: Simple checks](https://www.zabbix.com/documentation/current/en/manual/config/items/itemtypes/simple_checks)
 
+## Zabbix + Kafka
+
+[Zabbix + Kafka](https://www.zabbix.com/ru/integrations/kafka)
+
+[kafka-monitoring](https://github.com/helli0n/kafka-monitoring)
+>Kafka monitoring using zabbix and burrow
+
+[ZABBIX as a Kafka Consumer](https://www.michelvanderzijden.nl/zabbix-as-a-kafka-consumer/)
+
+[Kafka Connector](https://git.zabbix.com/projects/ZT/repos/kafka-connector/browse)
+>Kafka connector for Zabbix server
+
+## Streaming to external systems
+
+[Streaming to external systems](https://www.zabbix.com/documentation/current/en/manual/config/export/streaming)
+
+[Receiver](https://git.zabbix.com/projects/ZT/repos/receiver/browse)
+>Experimental connector for data streaming (PoC)
+
 &#9635;
