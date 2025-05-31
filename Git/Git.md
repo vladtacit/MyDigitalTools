@@ -62,8 +62,12 @@ git cat-file -p <commit_hash>
 [Run your GitHub Actions locally!](https://github.com/nektos/act)
 
 ---
-
 [Как работать с Git и Gitflow: разбираемся на примерах](https://habr.com/ru/companies/beeline_cloud/articles/829142/)
+
+---
+[CI/CD на GitHub Actions и GitLab CI для самых маленьких. Часть 1](https://habr.com/ru/articles/914560/)
+
+[CI/CD на GitHub Actions и GitLab CI для самых маленьких. Часть 2](https://habr.com/ru/articles/914614/)
 
 ## GitVerse
 
