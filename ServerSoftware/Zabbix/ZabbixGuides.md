@@ -1,5 +1,7 @@
 # Zabbix Guides
 
+[Documentation](https://www.zabbix.com/manuals)
+
 [Руководство по Zabbix](https://www.zabbix.com/documentation/6.4/ru/manual)
 
 ## Templates
