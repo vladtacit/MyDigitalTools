@@ -80,7 +80,7 @@ On the localhost create a directory for the repository and go to it.
 touch README.md
 git init
 git add .
-git commit -m "first_commit"
+git commit -m "Initial commit"
 git branch -M master
 git remote add origin ssh://git@gitverse.ru:2222/${USER}/${REPO}.git
 git push -u origin master
