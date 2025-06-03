@@ -49,8 +49,9 @@ server_name example.com;
 8. Start Zabbix server and agent processes
 
 ```bash
-systemctl restart zabbix-server zabbix-agent nginx php8.2-fpm
-systemctl enable zabbix-server zabbix-agent nginx php8.2-fpm
+systemctl enable zabbix-server zabbix-agent php8.2-fpm
+systemctl restart nginx
+systemctl start zabbix-server zabbix-agent php8.2-fpm
 ```
 
 9. Show open ports
@@ -86,7 +87,7 @@ Enter the **user name** Admin with **password** zabbix to log in as a **Zabbix s
 1. Remove old (6.4) repository 
 
 ```bash
-systemctl stop zabbix-server zabbix-agent nginx php8.2-fpm
+systemctl stop zabbix-server zabbix-agent
 rm -Rf /etc/apt/sources.list.d/zabbix.list
 ```
 
@@ -102,7 +103,8 @@ apt update
 
 ```bash
 apt install --only-upgrade zabbix-server-pgsql zabbix-frontend-php php8.2-pgsql zabbix-nginx-conf zabbix-sql-scripts zabbix-agent
-systemctl start zabbix-server zabbix-agent nginx php8.2-fpm
+systemctl restart nginx php8.2-fpm
+systemctl start zabbix-server zabbix-agent
 ```
 
 ## ToDo:
