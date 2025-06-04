@@ -87,7 +87,7 @@ Enter the **user name** Admin with **password** zabbix to log in as a **Zabbix s
 1. Remove old (6.4) repository 
 
 ```bash
-systemctl stop zabbix-server zabbix-agent
+systemctl stop zabbix-server zabbix-agent php8.2-fpm
 rm -Rf /etc/apt/sources.list.d/zabbix.list
 ```
 
@@ -103,11 +103,38 @@ apt update
 
 ```bash
 apt install --only-upgrade zabbix-server-pgsql zabbix-frontend-php php8.2-pgsql zabbix-nginx-conf zabbix-sql-scripts zabbix-agent
-systemctl restart nginx php8.2-fpm
-systemctl start zabbix-server zabbix-agent
+systemctl restart nginx
+systemctl start zabbix-server zabbix-agent php8.2-fpm
+tail -f /var/log/zabbix/zabbix_server.log
+
+ 10491:20250604:214550.018 completed 99% of database upgrade
+ 10491:20250604:214550.032 completed 100% of database upgrade
+ 10491:20250604:214550.052 database upgrade fully completed
 ```
 
+Надо сохранить настройки соединения с БД в файле /etc/zabbix/zabbix_server.conf. Иначе получим такую ошибку:
+
+```
+The Zabbix database version does not match current requirements. Your database version: 6040000. Required version: 7000000. Please contact your system administrator.
+```
+
+4. Проверяем подключение к UI Zabbix и удаляем установочный файл
+
+```bash
+rm zabbix-release_latest_7.0+debian12_all.deb
+```
+
+### WebDriver
+
+В конфиге добавился раздел "Browser monitoring".
+
 ## ToDo:
+
+- Study WebDriver
+   * [WebDriver](https://www.selenium.dev/documentation/webdriver/)
+   * [WebDriver](https://developer.mozilla.org/en-US/docs/Web/WebDriver)
+   * [Selenium](https://ru.wikipedia.org/wiki/Selenium)
+   * [Что такое Selenium WebDriver?](https://habr.com/ru/articles/152971/)
 
 - Add TimescaleDB
    [TimescaleDB setup](https://www.zabbix.com/documentation/6.4/en/manual/appendix/install/timescaledb)
