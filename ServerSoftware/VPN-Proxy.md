@@ -1,5 +1,7 @@
 # VPN and Proxy
 
+[Надежный обход блокировок в 2024: протоколы, клиенты и настройка сервера от простого к сложному](https://habr.com/ru/articles/799751/) **Read it!** **Need VPN**
+
 ## Windscribe
 
 [Windscribe VPN Extension for Chrome | Windscribe](https://windscribe.com/features/chrome/)
@@ -7,6 +9,9 @@
 ## DPI
 
 [Автономный способ обхода DPI и эффективный способ обхода блокировок сайтов по IP-адресу](https://habr.com/ru/articles/335436/)
+
+[NTC](https://ntc.party/) **network censorship** **Need VPN!**
+>Discussion board for network censorship all around the world, with anti-censorship software developers, researchers and tech-savvy users.
 
 [GoodbyeDPI](https://github.com/ValdikSS/GoodbyeDPI/?tab=readme-ov-file#similar-projects)
 
@@ -46,6 +51,10 @@ VPN server
 
 [Latest 1.3.0](https://www.infradead.org/ocserv/download/) **2025-06-07**
 
+[Install from source](../_Store/ocserv-1.3.0/README.md)
+
 [OCserv Systemd Unit](./ocserv-systemd.service)
+
+### OpenConnect clients
 
 &#9635;
