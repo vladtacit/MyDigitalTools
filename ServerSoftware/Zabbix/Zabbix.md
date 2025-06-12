@@ -1,5 +1,9 @@
 # Zabbix
 
+[Definitions](https://www.zabbix.com/documentation/current/en/manual/definitions)
+
+[Определения](https://www.zabbix.com/documentation/7.0/ru/manual/definitions)
+
 ## Install and configure Zabbix 6.0 for Debian 12
 
 [Get Zabbix](https://www.zabbix.com/download?zabbix=6.0&os_distribution=debian&os_version=12&components=server_frontend_agent&db=pgsql&ws=nginx)
