@@ -143,4 +143,8 @@ Virtual assistants:
 * Codeium - Windsurf
 * Anysphere - Cursor
 
-&#9635;
+## ToDo
+
+[Проверка русской и английской орфографии в VSCode](https://qna.habr.com/q/630783)
+
+## [~]
