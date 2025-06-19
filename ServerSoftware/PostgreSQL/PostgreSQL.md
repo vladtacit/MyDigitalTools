@@ -47,6 +47,14 @@ User access:
 $ sudo -u postgres psql
 ```
 
+## Install (RHEL)
+
+[Getting started with PostgreSQL on Linux](https://www.redhat.com/en/blog/postgresql-setup-use-cases)
+
+[Linux downloads (Red Hat family)](https://www.postgresql.org/download/linux/redhat/)
+
+[Установка PostgreSQL на Red Hat Enterprise Linux](https://victorz.ru/202109091472)
+
 ## Admin tools
 
 [pgAdmin](https://www.pgadmin.org/)
