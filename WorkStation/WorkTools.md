@@ -10,4 +10,18 @@
 [Microsoft Edit](https://github.com/microsoft/edit)
 >A simple editor for simple needs.
 
-&#9635;
+## Compress and uncompress
+
+[GNU zip. WiKi](https://en.wikipedia.org/wiki/Gzip)
+
+[GNU zip. WiKi Rus](https://ru.wikipedia.org/wiki/Gzip)
+
+**gzip** выполняет только две функции: сжатие и распаковку одного файла; упаковка нескольких файлов в один архив невозможна. При сжатии к оригинальному расширению файла добавляется суффикс .gz. Для упаковки нескольких файлов обычно их сначала архивируют (объединяют) в один файл утилитой tar, а потом этот файл сжимают с помощью gzip. Таким образом, сжатые архивы обычно имеют двойное расширение .tar.gz, либо сокращённое .tgz.
+
+To unzip a gzipped file you use the gunzip command:
+
+```bash
+gunzip filename.gz
+```
+
+## [~]
