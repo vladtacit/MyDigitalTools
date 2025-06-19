@@ -134,6 +134,10 @@ rm zabbix-release_latest_7.0+debian12_all.deb
 
 [Создание базы данных](https://www.zabbix.com/documentation/7.0/ru/manual/appendix/install/db_scripts)
 
+### RHEL packages
+
+zabbix-sql-scripts-7.0.11-release1.el8.noarch.rpm
+
 ## ToDo:
 
 - Study WebDriver
