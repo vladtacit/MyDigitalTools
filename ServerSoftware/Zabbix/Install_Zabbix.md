@@ -138,6 +138,19 @@ rm zabbix-release_latest_7.0+debian12_all.deb
 
 zabbix-sql-scripts-7.0.11-release1.el8.noarch.rpm
 
+Extract an RPM package without installing:
+
+```bash
+rpm2cpio packagename.rpm | cpio -idmv
+```
+
+cpio arguments:
+
+-i = extract
+-d = make directories
+-m = preserve modification time
+-v = verbose
+
 ## ToDo:
 
 - Study WebDriver
