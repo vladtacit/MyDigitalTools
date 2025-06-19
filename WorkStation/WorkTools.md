@@ -10,6 +10,23 @@
 [Microsoft Edit](https://github.com/microsoft/edit)
 >A simple editor for simple needs.
 
+## find command
+
+[find(1) — Linux manual page](https://man7.org/linux/man-pages/man1/find.1.html)
+
+[10 ways to use the Linux find command](https://www.redhat.com/en/blog/linux-find-command)
+
+[find (Unix)](https://en.wikipedia.org/wiki/Find_(Unix))
+
+[find](https://ru.wikipedia.org/wiki/Find)
+>утилита поиска файлов по имени и другим свойствам, используемая в UNIX‐подобных операционных системах.
+
+Hide "Permission denied" error:
+
+```bash
+find . > search_result 2> >(grep -v 'Permission denied$' >&2)
+```
+
 ## Compress and uncompress
 
 [GNU zip. WiKi](https://en.wikipedia.org/wiki/Gzip)
