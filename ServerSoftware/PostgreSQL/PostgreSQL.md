@@ -55,6 +55,14 @@ $ sudo -u postgres psql
 
 [Установка PostgreSQL на Red Hat Enterprise Linux](https://victorz.ru/202109091472)
 
+## TimescaleDB
+
+Detect TimescaleDB extension:
+
+```sql
+SELECT extversion INTO current_timescaledb_version_full FROM pg_extension WHERE extname = 'timescaledb';
+```
+
 ## Admin tools
 
 [pgAdmin](https://www.pgadmin.org/)
