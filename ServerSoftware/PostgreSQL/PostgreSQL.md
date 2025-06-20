@@ -67,6 +67,9 @@ SELECT extversion INTO current_timescaledb_version_full FROM pg_extension WHERE 
 
 [pgAdmin](https://www.pgadmin.org/)
 
+[DBeaver](https://dbeaver.io/)
+>DBeaver Community is a free cross-platform database tool for developers, database administrators, analysts, and everyone working with data. It supports all popular SQL databases like MySQL, MariaDB, PostgreSQL, SQLite, Apache Family, and more.
+
 ### psql
 
 [psql (PostgreSQL client) tool install on RHEL - Database Administrators Stack Exchange](https://dba.stackexchange.com/questions/298872/psql-postgresql-client-tool-install-on-rhel)
