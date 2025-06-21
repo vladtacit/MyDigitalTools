@@ -9,13 +9,11 @@
 [PostgreSql](https://wiki.debian.org/PostgreSql)
 
 Search Debian packages to find the list of possibilities:
-
 ```bash
 # apt search postgresql
 ```
 
 Install:
-
 ```bash
 # apt install postgresql
 The following additional packages will be installed:
@@ -39,12 +37,11 @@ The following additional packages will be installed:
 ```
 
 Check PostgreSQL status:
-
 ```bash
 # systemctl status postgresql
 ```
-User access:
 
+User access:
 ```bash
 $ sudo -u postgres psql
 ```
@@ -73,23 +70,17 @@ SELECT count(extversion) FROM pg_extension WHERE extname = 'timescaledb';
 
 [psql (PostgreSQL client) tool install on RHEL - Database Administrators Stack Exchange](https://dba.stackexchange.com/questions/298872/psql-postgresql-client-tool-install-on-rhel)
 >On RedHat, and compatible systems, in order to install just the client only, the command is:
-
 ```bash
 sudo yum install postgresql
 ```
-
 >For a full-blown server install (should you require it in the future), the command is:
-
 ```bash
 sudo yum install postgresql-server
 ```
-
 >You can back out either of the commands above by issuing the command:
-
 ```bash
 sudo yum remove <package name>
 ```
-
 >uninstall your PostgreSQL client tools:
 ```bash
 sudo yum remove postgresql 
