@@ -59,10 +59,14 @@ $ sudo -u postgres psql
 
 ## TimescaleDB
 
-Detect TimescaleDB extension:
+### Detect TimescaleDB extension
 
 ```sql
 SELECT extversion INTO current_timescaledb_version_full FROM pg_extension WHERE extname = 'timescaledb';
+```
+
+```sql
+SELECT count(extversion) FROM pg_extension WHERE extname = 'timescaledb';
 ```
 
 ## psql
