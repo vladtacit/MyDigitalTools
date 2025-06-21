@@ -17,6 +17,8 @@
 }
 ```
 
+[Частые полезные настройки VS Code](https://gist.github.com/muks999/50caf7ba36c4899233d25cd620ed4b79)
+
 ## Workspaces
 
 [What is a VS Code "workspace"?](https://code.visualstudio.com/docs/editor/workspaces)
