@@ -134,7 +134,7 @@ rm zabbix-release_latest_7.0+debian12_all.deb
 
 [Создание базы данных](https://www.zabbix.com/documentation/7.0/ru/manual/appendix/install/db_scripts)
 
-Создать пользователя zabbix:
+Создать базу данных zabbix:
 ```bash
 sudo -i -u postgres
 createdb -O zabbix -E Unicode -T template0 zabbix
@@ -156,6 +156,12 @@ cpio arguments:
 -d = make directories
 -m = preserve modification time
 -v = verbose
+
+ ## Web interface
+
+ [Web interface installation](https://www.zabbix.com/documentation/current/en/manual/installation/frontend)
+
+ [Установка веб-интерфейса](https://www.zabbix.com/documentation/7.0/ru/manual/installation/frontend)
 
 ## ToDo:
 
