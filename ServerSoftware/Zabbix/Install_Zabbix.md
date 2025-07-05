@@ -162,6 +162,86 @@ cpio arguments:
  [Web interface installation](https://www.zabbix.com/documentation/current/en/manual/installation/frontend)
 
  [Установка веб-интерфейса](https://www.zabbix.com/documentation/7.0/ru/manual/installation/frontend)
+ 
+### FastCGI Process Manager php-fpm
+
+[FastCGI Process Manager (FPM)](https://www.php.net/manual/en/install.fpm.php)
+
+[Configuration](https://www.php.net/manual/en/install.fpm.configuration.php)
+
+```bash
+find /etc -name "php.ini"
+/etc/php/8.2/cli/php.ini
+/etc/php/8.2/fpm/php.ini
+```
+
+Old Red Hat
+```
+/etc/php.ini
+```
+
+For debug change
+```
+display_errors = Off
+```
+
+to
+
+```
+display_errors = On
+display_startup_errors = On
+error_reporting = E_ALL & ~E_DEPRECATED & ~E_STRICT
+```
+
+and restart service php-fpm.
+
+[PHP display_errors](https://www.php.net/manual/ru/errorfunc.configuration.php#ini.display-errors)
+
+```
+; This directive controls whether or not and where PHP will output errors,
+; notices and warnings too. Error output is very useful during development, but
+; it could be very dangerous in production environments. Depending on the code
+; which is triggering the error, sensitive information could potentially leak
+; out of your application such as database usernames and passwords or worse.
+; For production environments, we recommend logging errors rather than
+; sending them to STDOUT.
+; Possible Values:
+;   Off = Do not display any errors
+;   stderr = Display errors to STDERR (affects only CGI/CLI binaries!)
+;   On or stdout = Display errors to STDOUT
+; Default Value: On
+; Development Value: On
+; Production Value: Off
+; https://php.net/display-errors
+display_errors = Off
+```
+
+**stderr = Display errors to STDERR (affects only CGI/CLI binaries!)**
+
+Nginx balancer:
+```
+upstream php {
+    server  127.0.0.1:9000;
+    server  127.0.0.1:9001;
+    server  127.0.0.1:9002;
+    server  127.0.0.1:9003;
+}
+
+location ~ \.php$ {
+    try_files  $uri = 404;
+    fastcgi_pass  php;
+    fastcgi_index  index.php;
+    include  fastcgi.conf;
+}
+```
+
+[Nginx Php-fpm not logging 500 error anywhere](https://stackoverflow.com/questions/27452528/nginx-php-fpm-not-logging-500-error-anywhere)
+
+[php-fpm выдает ошибку 500 в браузер](https://ru.stackoverflow.com/questions/785468/php-fpm-%D0%B2%D1%8B%D0%B4%D0%B0%D0%B5%D1%82-%D0%BE%D1%88%D0%B8%D0%B1%D0%BA%D1%83-500-%D0%B2-%D0%B1%D1%80%D0%B0%D1%83%D0%B7%D0%B5%D1%80)
+
+Если в php скрипте есть ошибка, то сервер отдает только ошибку 500, без подробностей.
+
+Для вывода ошибок надо
 
 ## ToDo:
 
