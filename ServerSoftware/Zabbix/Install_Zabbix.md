@@ -218,6 +218,21 @@ display_errors = Off
 
 **stderr = Display errors to STDERR (affects only CGI/CLI binaries!)**
 
+Permissions:
+```
+ls -l /etc/zabbix
+-rw-r--r-- 1 root     root  1979 Aug 25  2024 nginx.conf
+-rw-r--r-- 1 root     root   564 Aug 19  2024 php-fpm.conf
+drwxr-xr-x 2 www-data root  4096 Aug 25  2024 web
+-rw-r--r-- 1 root     root 17274 May 20 17:39 zabbix_agentd.conf
+drwxr-xr-x 2 root     root  4096 Aug 19  2024 zabbix_agentd.d
+-rw------- 1 root     root 30496 Jun  4 21:44 zabbix_server.conf
+-rw------- 1 root     root 30508 Jun 20 21:37 zabbix_server.conf.dpkg-dist
+
+ls -l /etc/zabbix/web
+-rw------- 1 www-data www-data 1909 Aug 25  2024 zabbix.conf.php
+```
+
 Nginx balancer:
 ```
 upstream php {
