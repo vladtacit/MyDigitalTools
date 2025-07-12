@@ -1,5 +1,6 @@
 # Zabbix-web Debug
 
+php-fpm access_log **???**
 
 [Nginx Php-fpm not logging 500 error anywhere](https://stackoverflow.com/questions/27452528/nginx-php-fpm-not-logging-500-error-anywhere)
 

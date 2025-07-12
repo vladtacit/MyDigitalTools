@@ -198,6 +198,8 @@ and restart service php-fpm (php8.2-fpm.service).
 ```bash
 systemctl list-units -t service | grep php
   php8.2-fpm.service                 loaded active running The PHP 8.2 FastCGI Process Manager
+
+systemctl restart php8.2-fpm.service
 ``
 
 [PHP display_errors](https://www.php.net/manual/ru/errorfunc.configuration.php#ini.display-errors)
