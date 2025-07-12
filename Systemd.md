@@ -16,4 +16,11 @@
 
 [Управление службами в systemd](https://timeweb.cloud/docs/unix-guides/service-management-in-systemd)
 
+## Basic commands
+
+* systemctl list-units - список всех запущенных служб
+* systemctl list-units -t service - список запущенных программ (сервисов)
+* systemctl list-units -t service --all - список всех сервисов
+* systemctl list-units -t service --state running - список выполняющихся сервисов
+
 ## [~]
