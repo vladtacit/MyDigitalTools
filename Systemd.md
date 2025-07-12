@@ -4,6 +4,8 @@
 
 [systemd WiKi](https://en.wikipedia.org/wiki/Systemd)
 
+[systemctl(1) — Linux manual page](https://www.man7.org/linux/man-pages/man1/systemctl.1.html)
+
 [Systemd. Debian](https://wiki.debian.org/ru/Systemd)
 
 [systemd ArchWiki](https://wiki.archlinux.org/title/Systemd)
