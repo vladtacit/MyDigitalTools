@@ -112,6 +112,11 @@ tail -f /var/log/zabbix/zabbix_server.log
  10491:20250604:214550.052 database upgrade fully completed
 ```
 
+ View Zabbix server uncomment parameters:
+ ```bash
+ cat zabbix_server.conf | grep -v '^\s*$\|^\s*\#'
+ ```
+
 Надо сохранить настройки соединения с БД в файле /etc/zabbix/zabbix_server.conf. Иначе получим такую ошибку:
 
 ```
