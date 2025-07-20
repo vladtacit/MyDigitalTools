@@ -4,6 +4,8 @@
 
 [15 команд Git, которые покрывают 90% повседневной работы разработчика](https://habr.com/ru/articles/905658/)
 
+[Как я использую git](https://habr.com/ru/companies/beget/articles/852626/)
+
 ## Create repository
 
 [ConvenientHome](https://github.com/vladtacit/ConvenientHome)
@@ -112,4 +114,13 @@ git push -u origin master
 
 [Как улучшить свои навыки работы с Git с помощью GitHub CLI](https://habr.com/ru/companies/otus/articles/867782/)
 
-&#9635;
+## Git tags
+
+[Git - Работа с тегами](https://git-scm.com/book/ru/v2/%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D1%8B-Git-%D0%A0%D0%B0%D0%B1%D0%BE%D1%82%D0%B0-%D1%81-%D1%82%D0%B5%D0%B3%D0%B0%D0%BC%D0%B8)
+
+[8 правил, которые пригодятся при описании Git-коммитов](https://habr.com/ru/companies/sberbank/articles/662744/)
+
+[Отрабатываем Git hooks на автоматизации commit message](https://habr.com/ru/companies/dins/articles/584562/)
+
+## [~]
+
