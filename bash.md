@@ -11,4 +11,13 @@ do
 done < "${1:-/dev/stdin}"
 ```
 
+Read file into VAR
+
+```bash
+#!/bin/bash
+
+VAR=$(<$1)
+echo $VAR
+```
+
 ## [~]
