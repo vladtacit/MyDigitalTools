@@ -86,6 +86,8 @@ git cat-file -p <commit_hash>
 
 [Знания как код: архитектурный репозиторий в git на базе PlantUML](https://habr.com/ru/companies/rshb/articles/816199/)
 
+[Как информативно оформить профиль на GitHub?](https://habr.com/ru/articles/813399/)
+
 ---
 
 ## GitHub Actions
