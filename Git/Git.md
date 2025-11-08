@@ -1,5 +1,9 @@
 # Git
 
+[Book](https://git-scm.com/book)
+
+[Hello World](https://docs.github.com/en/get-started/start-your-journey/hello-world)
+
 [Pro Git](../_Store/progit-ru.1027.pdf)
 
 [15 команд Git, которые покрывают 90% повседневной работы разработчика](https://habr.com/ru/articles/905658/)
@@ -7,6 +11,12 @@
 [Как я использую git](https://habr.com/ru/companies/beget/articles/852626/)
 
 [Шпаргалка для новичков — от GIT до Деплоя](https://habr.com/ru/articles/928532/) **GitOps**
+
+[Think Like (a) Git](https://think-like-a-git.net/)
+
+[GitHub Flavored Markdown Spec](https://github.github.com/gfm/)
+
+[emoji-cheat-sheet](https://github.com/ikatyang/emoji-cheat-sheet)
 
 ## Create repository
 
@@ -37,6 +47,20 @@ git cat-file -p <commit_hash>
 [Git - Pushing code to two remotes](https://stackoverflow.com/questions/14290113/git-pushing-code-to-two-remotes) **!!!**
 
 ## Read it!
+
+[GitHub Flow](https://docs.github.com/ru/get-started/using-github/github-flow)
+
+[Мегагайд: культура работы с Git](https://habr.com/ru/companies/yandex_praktikum/articles/812139/) **Git Flow**
+
+[Ежедневная работа с Git](https://habr.com/ru/articles/174467/)
+
+[19 советов по повседневной работе с Git](https://habr.com/ru/companies/vk/articles/267595/)
+
+[Достаточно Git-а, чтобы быть (менее) опасным](https://habr.com/ru/articles/268951/)
+
+[Git снизу вверх](https://habr.com/ru/companies/intel/articles/344962/)
+
+[Документация по GitHub Pages](https://docs.github.com/ru/pages)
 
 [Линус Торвальдс, Бьёрн Страуструп и Брендан Грегг контрибьютят в мой хобби-проект. Зачем?](https://habr.com/ru/post/515550/)
 
