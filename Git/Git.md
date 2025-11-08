@@ -58,6 +58,9 @@ git cat-file -p <commit_hash>
 
 [Достаточно Git-а, чтобы быть (менее) опасным](https://habr.com/ru/articles/268951/)
 
+[Git: Больше чем commit и push. 5 команд, которые спасут вашу репутацию (и нервные клетки)](https://habr.com/ru/companies/timeweb/articles/927102/)
+>revert, stash, cherry-pick, reset --soft и bisect
+
 [Git снизу вверх](https://habr.com/ru/companies/intel/articles/344962/)
 
 [Документация по GitHub Pages](https://docs.github.com/ru/pages)
@@ -78,6 +81,8 @@ git cat-file -p <commit_hash>
 [Git для новичков (часть 2)](https://habr.com/ru/articles/542616/)
 
 [Описание внутреннего git протокола](https://habr.com/ru/articles/823642/)
+
+[Делаем резервное копирование сайта с помощью git и Makefile](https://habr.com/ru/articles/425259/)
 
 ---
 
