@@ -84,6 +84,8 @@ git cat-file -p <commit_hash>
 
 [Делаем резервное копирование сайта с помощью git и Makefile](https://habr.com/ru/articles/425259/)
 
+[Знания как код: архитектурный репозиторий в git на базе PlantUML](https://habr.com/ru/companies/rshb/articles/816199/)
+
 ---
 
 ## GitHub Actions
