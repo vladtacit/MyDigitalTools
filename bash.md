@@ -20,4 +20,8 @@ VAR=$(<$1)
 echo $VAR
 ```
 
+## Examples
+
+[Мои личные скрипты для повседневной работы](https://habr.com/ru/companies/ruvds/articles/961514/)
+
 ## [~]
