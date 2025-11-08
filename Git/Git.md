@@ -88,6 +88,8 @@ git cat-file -p <commit_hash>
 
 [Как информативно оформить профиль на GitHub?](https://habr.com/ru/articles/813399/)
 
+[About passkeys](https://docs.github.com/en/authentication/authenticating-with-a-passkey/about-passkeys)
+
 ---
 
 ## GitHub Actions
