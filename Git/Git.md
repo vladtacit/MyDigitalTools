@@ -14,8 +14,6 @@
 
 See shell scripts in _Store!
 
-[How to configure command line git to use ssh key](https://stackoverflow.com/questions/23546865/how-to-configure-command-line-git-to-use-ssh-key)
-
 Показать подписи всех коммитов в логе, начиная с последнего коммита:
 
 ```bash
@@ -27,6 +25,8 @@ git log --show-signature
 ```bash
 git cat-file -p <commit_hash>
 ```
+
+[Клонирование и создание репозиториев](https://git-scm.com/book/ru/v2/%D0%9F%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5-C%3A-%D0%9A%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D1%8B-Git-%D0%9A%D0%BB%D0%BE%D0%BD%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-%D0%B8-%D1%81%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5-%D1%80%D0%B5%D0%BF%D0%BE%D0%B7%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%B5%D0%B2) **git init/clone**
 
 ## Work with multiple remotes
 
@@ -81,6 +81,8 @@ On [GitVerse](https://gitverse.ru/new) create a new repository @{USER}/@{REPO}
 @{REPO} - repository name
 
 ### New repository (SSH)
+
+[How to configure command line git to use ssh key](https://stackoverflow.com/questions/23546865/how-to-configure-command-line-git-to-use-ssh-key)
 
 On the localhost create a directory for the repository and go to it.
 
