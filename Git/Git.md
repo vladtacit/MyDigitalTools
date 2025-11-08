@@ -6,6 +6,8 @@
 
 [Как я использую git](https://habr.com/ru/companies/beget/articles/852626/)
 
+[Шпаргалка для новичков — от GIT до Деплоя](https://habr.com/ru/articles/928532/) **GitOps**
+
 ## Create repository
 
 [ConvenientHome](https://github.com/vladtacit/ConvenientHome)
