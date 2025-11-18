@@ -149,4 +149,6 @@ Virtual assistants:
 
 [Проверка русской и английской орфографии в VSCode](https://qna.habr.com/q/630783)
 
+[Google опубликовала расширение Colab для Visual Studio Code](https://habr.com/ru/news/967144/)
+
 ## [~]
