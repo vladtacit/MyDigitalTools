@@ -8,4 +8,6 @@
 
 [WhisperX](https://github.com/m-bain/whisperX)
 
+[«Просто используй Docker» — мой путь от Whisper к WhisperX](https://habr.com/ru/articles/948894/)
+
 ## [~]
